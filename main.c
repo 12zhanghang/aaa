@@ -7,6 +7,8 @@ struct student
     int yingyu;
     char name[100];
 };
+struct student arr[100];
+int index=0;
 
 int main(){
     printf("xueshengchengjiguanlixitong\n");
@@ -27,11 +29,39 @@ int main(){
         
         if (code==1) 
         {
-            
+            printf("qing shu ru xsxm\n");
+            scanf("%s",arr[index].name);
+            printf("qsrxsywcj\n");
+            scanf("%d",&(arr[index].yuwen));
+            printf("qsrxssxcj\n");
+            scanf("%d",&(arr[index].shuxue));
+            printf("qsrxsyycj\n");
+            scanf("%d",&(arr[index].yingyu));
+            index++;
+            printf("tin jia wancheng,djhcjx\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
+
         }
         if (code==2) 
         {
-            
+            printf("shanchu\n");
+            if(index>0)
+            {
+            index--;
+            printf("shanchuchenggong\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
+            }
+            else
+            {
+                printf("wxsxx,scsb\n");
+                char x;
+                scanf("%c",&x);
+                scanf("%c",&x);
+            }
         }
         if (code==3) 
         {
