@@ -65,10 +65,33 @@ int main(){
         }
         if (code==3) 
         {
+            printf("souyouxue shangji\n");
+            
+            for(int i = 0; i < index; i++)
+            {
+                printf("di%dgexuedechengjiwei %s,yw:%d,sx:%d,yy:%d\n",i+1,arr[i].name,arr[i].shuxue,arr[i].yingyu);
+
+            }
+            printf("\ndianjihuichejixu\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
             
         }
         if (code==4) 
         {
+            
+            for(int i = 0; i < index; i++)
+            {
+                int sum =arr[i].yuwen+arr[i].shuxue+arr[i].yingyu;
+                if(sum<180)
+                {
+                    printf("zo fubujigedetongx %s，语文：%d，数学%d，英语%d\n",arr[i].name,arr[i].yuwen,arr[i].shuxue,arr[i].yingyu);
+                }
+            }
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x); 
             
         }
         if (code==5) 
